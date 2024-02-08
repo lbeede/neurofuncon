@@ -1,10 +1,10 @@
 Package: neurofuncon
 Type: Package
-Title: Gaussian Graphical Modeling of Neural Activity
+Title: Estimation of neuronal functional connectivity data using Gaussian graphical models.
 Version: 0.1.0
 Author: Lauren Miako Beede & Giuseppe Vinci
 Maintainer: Lauren Miako Beede <lbeede2@nd.edu>
-Description: Determining functional connectivity from matrix data.
+Description: Estimation of neuronal functional connectivity data using Gaussian graphical models.
     Common data acquisition types include calcium imaging, EEG, MEG, etc.
 License: The R package neurofuncon uses the R-packages listed below together with their licenses:
 
