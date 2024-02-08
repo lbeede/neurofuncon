@@ -6,7 +6,15 @@ Author: Lauren Miako Beede & Giuseppe Vinci
 Maintainer: Lauren Miako Beede <lbeede2@nd.edu>
 Description: Determining functional connectivity from matrix data.
     Common data acquisition types include calcium imaging, EEG, MEG, etc.
-License: What license is it under?
+License: The R package neurofuncon uses the R-packages listed below together with their licenses:
+
+glasso: https://cran.r-project.org/web/packages/glasso/index.html, https://cran.r-project.org/web/licenses/GPL-2
+ggplot2: https://cran.r-project.org/web/packages/ggplot2/LICENSE, https://cran.r-project.org/web/licenses/MIT, 
+ggmap: https://cran.r-project.org/web/packages/Rtsne/LICENSE
+ggpubr: https://cran.r-project.org/web/packages/ggpubr/index.html, https://cran.r-project.org/web/licenses/GPL-2, https://cran.r-project.org/web/licenses/GPL-3
+R.matlab: https://cran.r-project.org/web/packages/R.matlab/index.html
+
+The aforementioned licenses also apply to the R package neurofuncon.
 Encoding: UTF-8
 NeedsCompilation: no
 Packaged: 2024-02-03 17:53:13 UTC; laurenbeede
