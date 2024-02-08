@@ -1,0 +1,13 @@
+Package: neurofuncon
+Type: Package
+Title: Gaussian Graphical Modeling of Neural Activity
+Version: 0.1.0
+Author: Lauren Miako Beede & Giuseppe Vinci
+Maintainer: Lauren Miako Beede <lbeede2@nd.edu>
+Description: Determining functional connectivity from matrix data.
+    Common data acquisition types include calcium imaging, EEG, MEG, etc.
+License: What license is it under?
+Encoding: UTF-8
+NeedsCompilation: no
+Packaged: 2024-02-03 17:53:13 UTC; laurenbeede
+Depends: R (>= 3.5.0)
