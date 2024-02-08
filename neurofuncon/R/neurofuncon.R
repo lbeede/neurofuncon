@@ -6,7 +6,11 @@ neurofun2d = function(traces, position, all.stimuli.ids, nlayer, ggm.stimuli.ids
   # all.stimuli.ids :: vector of all stimuli ids
   # nlayer :: the layer we want to observe >> remove in future version
   # ggm.stimuli.ids :: vector of stimuli ids we want to observe
+  # num.neurons :: number of nodes (neurons) to observe in the GGM
+  # num.edges :: number of edges (connections) to observe in the GGM
+  # rho.seq :: sequence of potential rho values
   # Plot :: boolean to create the plot
+  # node.size :: integer value of the size of the neurons with the highest activation averages
 
   if(!require(glasso)) install.packages('glasso')
   library(glasso)
@@ -154,6 +158,7 @@ neurofun3d = function(traces, position, all.stimuli.ids, nlayers, ggm.stimuli.id
   # num.edges :: number of edges (connections) to observe in the GGM
   # rho.seq :: sequence of potential rho values
   # Plot :: boolean to create the plot
+  # node.size :: integer value of the size of the neurons with the highest activation averages
 
   if(!require(glasso)) install.packages('glasso')
   library(glasso)
