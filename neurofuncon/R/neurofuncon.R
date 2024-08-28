@@ -93,7 +93,7 @@ neurofun2d = function(traces, position, all.stimuli.ids, nlayer, ggm.stimuli.ids
 
   # Changing the rho based on a certain number of edges ####
   for(rho.value in rho.seq){
-    theta <- glasso::glasso(neurons.cor, rho = rho.value)$wi
+    theta <- glasso::glasso(neurons.cov, rho = rho.value)$wi
     edge <- theta!=0
     edge.num = (sum(edge)-num.neurons)/2
     if(edge.num >= num.edges){
@@ -239,7 +239,7 @@ neurofun3d = function(traces, position, all.stimuli.ids, nlayers, ggm.stimuli.id
   #Changing the rho based on a certain number of edges
 
   for(rho.value in rho.seq){
-    theta <- glasso::glasso(neurons.cor, rho = rho.value)$wi
+    theta <- glasso::glasso(neurons.cov, rho = rho.value)$wi
     edge <- theta!=0
     edge.num = (sum(edge)-num.neurons)/2
     if(edge.num >= num.edges){
